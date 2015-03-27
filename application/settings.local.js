@@ -4,7 +4,7 @@ var commonSettings = require("./settings.common.js");
 
 module.exports = Lazy(commonSettings).merge(
   {
-    "HOST":                           "bikeindex.local",
+    "HOST":                           "127.0.0.1",
     "PORT":                           "8080",
 
     "ENABLE_HOT_MODULE_REPLACEMENT":  true,

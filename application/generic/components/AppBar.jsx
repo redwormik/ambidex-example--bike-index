@@ -28,7 +28,6 @@ var AppBar = React.createClass(
                                       var maybeNavIcon =  <IconButton
                                                             src            = { this.props.imagesURL + "nav.svg" }
                                                             onTouchTap     = { this.props.showNavAction }
-                                                            makeSilhouette = { true }
                                                           />
                                     }
 

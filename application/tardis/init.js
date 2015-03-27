@@ -9,6 +9,7 @@ module.exports = new Ambidex.addons.TardisGallery(
                         ],
 
     "settings":         {
+                          "HOST":   "127.0.0.1",
                           "NAME":   "Bike Index TARDIS",
 
                           "URLS":   [

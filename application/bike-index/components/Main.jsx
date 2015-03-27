@@ -36,13 +36,11 @@ var Main = React.createClass(
                                                                         }
 
                                               logoSrc                 = { STATIC_URL + "bike-index/images/logo-one-line.svg" }
-                                              makeLogoSilhouette      = { true }
 
                                               appBarActionButtons     = {
                                                                           <div>
                                                                             <IconButton
                                                                               src             = { STATIC_URL + "bike-index/images/man-on-bike.svg" }
-                                                                              makeSilhouette  = { true }
                                                                               onTouchTap      = { this.getRefluxAction("showRightSideBar") }
                                                                             />
                                                                           </div>
